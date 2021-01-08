@@ -1,0 +1,96 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/rgradient"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView
+            android:layout_margin="10dp"
+            android:text="NEW USER REGISTRATION"
+            android:textSize="25dp"
+            android:fontFamily="cursive"
+            android:textColor="@color/purple_500"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/name"
+            android:hint="Enter your name"
+            android:textColorHint="@color/white"
+            android:drawableLeft="@drawable/name"
+            android:drawablePadding="10dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/mobile"
+            android:hint="Enter your Mobile Nummer"
+            android:inputType="number"
+            android:textColorHint="@color/white"
+            android:drawableLeft="@drawable/mobile"
+            android:drawablePadding="10dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/email"
+            android:hint="Enter your email"
+            android:textColorHint="@color/white"
+            android:drawableLeft="@drawable/email"
+            android:drawablePadding="10dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/uname"
+            android:hint="Enter User Name"
+            android:textColorHint="@color/white"
+            android:drawableLeft="@drawable/name"
+            android:drawablePadding="10dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/pass"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:textColorHint="@color/white"
+            android:drawableLeft="@drawable/password"
+            android:drawablePadding="10dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/cpass"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:textColorHint="@color/white"
+            android:drawableLeft="@drawable/password"
+            android:drawablePadding="10dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:onClick="register"
+            android:text="REGISTER"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_margin="40dp"
+            android:background="@drawable/searchbooks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:onClick="backmenu"
+            android:text="BACK TO MENU"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_margin="40dp"
+            android:background="@drawable/searchbooks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>

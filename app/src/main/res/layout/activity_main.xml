@@ -1,0 +1,59 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/libpng"
+            android:layout_gravity="center"
+            android:layout_width="300px"
+            android:layout_height="300px"/>
+        <EditText
+            android:id="@+id/lib"
+            android:hint="Librarian"
+            android:textColorHint="@color/white"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/ulname"
+            android:hint="Enter User Name"
+            android:textColorHint="@color/white"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/pass"
+            android:inputType="textPassword"
+            android:hint="Enter Password"
+            android:textColorHint="@color/white"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:onClick="loginbutton"
+            android:layout_margin="40dp"
+            android:background="@drawable/login"
+            android:textColor="@color/white"
+            android:text="LOGIN"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:onClick="register"
+            android:background="@drawable/login"
+            android:layout_margin="40dp"
+            android:textSize="20dp"
+            android:text="REGISTER NOW"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

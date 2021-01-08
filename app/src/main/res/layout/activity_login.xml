@@ -1,0 +1,46 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/rgradient"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView
+            android:src="@drawable/library"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_width="300px"
+            android:layout_height="300px"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:onClick="add"
+            android:background="@drawable/register"
+            android:layout_margin="40dp"
+            android:textColor="@color/white"
+            android:text="ADD BOOKS"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:onClick="search"
+            android:layout_margin="40dp"
+            android:background="@drawable/addbooks"
+            android:textSize="20dp"
+            android:text="SEARCH BOOKS"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:onClick="backlogin"
+            android:layout_margin="40dp"
+            android:background="@drawable/addbooks"
+            android:textSize="20dp"
+            android:text="BACK TO LOGIN"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+</ScrollView>

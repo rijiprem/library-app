@@ -1,0 +1,91 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/addgradient"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView
+            android:text="Details of Book"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textColor="@color/purple_700"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <ImageView
+
+            android:src="@drawable/library"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_width="300px"
+            android:layout_height="300px"/>
+        <EditText
+            android:id="@+id/name"
+            android:drawableLeft="@drawable/bookname"
+            android:drawablePadding="10dp"
+            android:hint="Enter the book name"
+            android:textColorHint="@color/white"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_margin="10dp"
+            android:id="@+id/author"
+            android:drawableLeft="@drawable/name"
+            android:drawablePadding="10dp"
+            android:hint="Enter the Author"
+            android:textColorHint="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_margin="10dp"
+            android:id="@+id/publisher"
+            android:hint="Enter the Publisher"
+            android:textColorHint="@color/white"
+            android:drawableLeft="@drawable/name"
+            android:drawablePadding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_margin="10dp"
+            android:id="@+id/year"
+            android:hint="Enter Year of Publication"
+            android:textColorHint="@color/white"
+            android:inputType="number"
+            android:drawableLeft="@drawable/year"
+            android:drawablePadding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_margin="10dp"
+            android:id="@+id/price"
+            android:drawableLeft="@drawable/price"
+            android:drawablePadding="10dp"
+            android:hint="Enter the price"
+            android:inputType="number"
+            android:textColorHint="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:onClick="submit"
+            android:layout_margin="40dp"
+            android:background="@drawable/addbooks"
+            android:text="SUBMIT"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:onClick="backmenu"
+            android:layout_margin="40dp"
+            android:background="@drawable/addbooks"
+            android:text="BACK TO MENU"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

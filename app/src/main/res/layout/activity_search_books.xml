@@ -1,0 +1,51 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/searchgradient"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView
+            android:text="BOOK SEARCH"
+            android:textColor="@color/register2"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:src="@drawable/booksearch"
+            android:layout_gravity="center"
+            android:layout_width="200px"
+            android:layout_height="200px"/>
+        <EditText
+            android:id="@+id/bname"
+            android:hint="Enter the name of the book to be searched"
+            android:textColorHint="@color/white"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:onClick="searchbook"
+            android:layout_margin="40dp"
+            android:text="SEARCH"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:background="@drawable/searchbooks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:onClick="backmenu"
+            android:layout_margin="40dp"
+            android:text="BACK TO MENU"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:background="@drawable/addbooks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>
+
