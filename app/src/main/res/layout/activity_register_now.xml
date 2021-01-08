@@ -83,8 +83,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         <androidx.appcompat.widget.AppCompatButton
-            android:onClick="backmenu"
-            android:text="BACK TO MENU"
+            android:onClick="backlogin"
+            android:text="BACK TO LOGIN"
             android:textColor="@color/white"
             android:textSize="20dp"
             android:layout_margin="40dp"

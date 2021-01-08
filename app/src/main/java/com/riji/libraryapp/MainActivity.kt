@@ -14,7 +14,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun loginbutton(view: View) {
-        var getLibrarian=findViewById<EditText>(R.id.lib);
         var getUserName=findViewById<EditText>(R.id.ulname);
         var getPassword=findViewById<EditText>(R.id.pass);
         var u=getUserName.text.toString();

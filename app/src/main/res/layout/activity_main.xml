@@ -15,13 +15,7 @@
             android:layout_gravity="center"
             android:layout_width="300px"
             android:layout_height="300px"/>
-        <EditText
-            android:id="@+id/lib"
-            android:hint="Librarian"
-            android:textColorHint="@color/white"
-            android:layout_margin="15dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+
         <EditText
             android:id="@+id/ulname"
             android:hint="Enter User Name"

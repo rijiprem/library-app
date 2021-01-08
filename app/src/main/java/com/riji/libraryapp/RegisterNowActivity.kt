@@ -25,8 +25,10 @@ class RegisterNowActivity : AppCompatActivity() {
         getUserName.text.toString()+"  "+getPassword.text.toString()+"  "+
         getConfirmPassword.text.toString(),Toast.LENGTH_LONG).show();
     }
-    fun backmenu(view: View) {
-        intent= Intent(this,LoginActivity::class.java);
+
+
+    fun backlogin(view: View) {
+        intent= Intent(this,MainActivity::class.java);
         startActivity(intent);
     }
 }
